@@ -24,8 +24,8 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     </body>
 </html>"""
 
-ALL_JSON_URL = "https://raw.githubusercontent.com/NoPlagiarism/frontend-instances-list/master/instances/all.json"
-INSTANCES_TREE_URL = "https://github.com/NoPlagiarism/frontend-instances-list/tree/master/instances/"
+ALL_JSON_URL = "https://raw.githubusercontent.com/NoPlagiarism/instances-list/master/instances/all.json"
+INSTANCES_TREE_URL = "https://github.com/NoPlagiarism/instances-list/tree/master/instances/"
 
 ROOT_PATH = os.path.dirname(os.path.dirname(__file__))
 R_PATH = os.path.join(ROOT_PATH, "r")
